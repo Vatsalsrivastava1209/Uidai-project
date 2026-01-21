@@ -19,7 +19,7 @@ High-enrolment districts suffer low update rates → stale biometric/demographic
 
 ### Visual Analysis
 #### 1. District Risk Map (Choropleth)
-![District Risk Map](plots/Maintenance risk.png)
+![District Risk Map](plots/maintenance_risk.png)
 *Geographic distribution of the Composite Risk Index across analyzed districts.*
 
 #### 2. NITI Aayog Correlation & Trends
