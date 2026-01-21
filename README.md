@@ -29,3 +29,34 @@ High-enrolment districts suffer low update rates → stale biometric/demographic
 - Data: UIDAI anonymized enrolment/update CSVs + NITI Champions of Change (Financial Inclusion)
 
 ### Repository Structure
+
+Uidai-project/
+├── UIDAI Project.ipynb          # Main analysis notebook
+├── financial_inclusion.csv      # NITI Aayog data for validation
+├── pincode_directory.csv        # Pincode → district mapping
+├── india_districts.json         # GeoJSON for choropleth
+├── my_plot.png                  # Sample visualization
+├── utils/                       # Helper functions (config.py, helpers.py)
+└── README.md
+
+
+### How to Run
+1. Clone repo: `git clone https://github.com/Vatsalsrivastava1209/Uidai-project.git`
+2. Install dependencies: `pip install -r requirements.txt` (create this file if missing)
+3. Open `UIDAI Project.ipynb` in Jupyter/Colab
+4. Run all cells (data files included)
+
+### Results & Impact
+- Targeted policy blueprint for UIDAI: Mobile camps in high-risk archetypes
+- Scalable to other India Stack layers (GSTN, UPI, Ayushman Bharat)
+- Demonstrates end-to-end data science: cleaning → modeling → visualization → policy recommendation
+
+### Future Work
+- Full national-scale deployment
+- Real-time monitoring dashboard
+- Anomaly detection for fraud patterns
+
+Feedback / collaboration welcome!  
+VaTsaL (@Codat_V) | Open to data analytics/science roles
+
+#data-science #aadhaar #uidai #hackathon #python #plotly
