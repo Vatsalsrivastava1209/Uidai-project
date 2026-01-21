@@ -17,6 +17,19 @@ High-enrolment districts suffer low update rates → stale biometric/demographic
 - **Prophet forecasting** for future backlog trends
 - **Interactive dashboard** (ipywidgets + Plotly choropleth)
 
+### Visual Analysis
+#### 1. District Risk Map (Choropleth)
+![District Risk Map](plots/Maintenance risk.png)
+*Geographic distribution of the Composite Risk Index across analyzed districts.*
+
+#### 2. NITI Aayog Correlation & Trends
+![NITI Correlation](plots/niti_scatter.png)
+*Correlation between financial inclusion progress and Aadhaar maintenance risk.*
+
+#### 3. Backlog Forecasting (Prophet Model)
+![Prophet Forecast](plots/prophet_plot.png)
+*Forecasting future update demand to predict potential system backlogs.*
+
 ### Key Insights
 - ~61% of analysed enrolments in priority archetypes needing urgent action
 - Higher risk in Aspirational Districts (0.7904 vs 0.7819 avg risk score)
