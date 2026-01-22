@@ -3,8 +3,10 @@
 **Built for UIDAI Data Hackathon 2026**  
 District-level prioritization engine using Aadhaar enrolment/update data to identify high-risk areas for stale records and authentication failures.
 
-**Live Demo / Interactive Dashboard**: [Link to nbviewer or GitHub Pages if you host it — or "Run locally with Jupyter"]  
+<details>
+**Live Demo / Interactive Dashboard**: [Link to nbviewer or GitHub Pages if you host it — or "Run locally with Jupyter"]
 **Full Report (PDF)**: [Upload the PDF to repo and link here: Aadhaar_Risk_Framework_Report.pdf]
+</details>
 
 ### Problem
 High-enrolment districts suffer low update rates → stale biometric/demographic data → authentication failures, exclusion, governance risk.
@@ -55,7 +57,7 @@ Uidai-project/
 
 ### How to Run
 1. Clone repo: `git clone https://github.com/Vatsalsrivastava1209/Uidai-project.git`
-2. Install dependencies: `pip install -r requirements.txt` (create this file if missing)
+2. Install dependencies: `pip install -r requirements.txt` 
 3. Open `UIDAI Project.ipynb` in Jupyter/Colab
 4. Run all cells (data files included)
 
